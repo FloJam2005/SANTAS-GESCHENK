@@ -26,9 +26,6 @@ def istxt(filename):
         print(datei.read())
         datei.close()
         return True
-
-async def sleep():
-    await asyncio.sleep(500)
 x = 1
 while True:
     datein=os.listdir(path+"/")
